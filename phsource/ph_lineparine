@@ -1,0 +1,24 @@
+// Phonemes for Lineparine (an artificial constructed language)
+// Inherits phonemes from Esperanto
+
+phoneme P
+  vls blb frc
+  Vowelout f1=0  f2=1000 -500 350  f3=-200 80
+  lengthmod 2
+  WAV(ufric/f)
+endphoneme
+
+phoneme y:
+  vwl starttype #u endtype #u
+  length 200
+  FMT(vowel/y)
+endphoneme
+
+phoneme y
+  vwl starttype #u endtype #u
+  length 100
+  IF nextPh(*) THEN
+    length 110
+  ENDIF
+  FMT(vowel/yy_4)
+endphoneme

@@ -1174,8 +1174,12 @@ void SetWordStress(Translator *tr, char *output, unsigned int *dictionary_flags,
 
 				if (stressflags & S_FINAL_LONG) {
 					// stress on last syllable if it has a long vowel, but previous syllable has a short vowel
-					if (vowel_length[vowel_count - 1] > vowel_length[vowel_count - 2])
-						stressed_syllable = vowel_count - 1;
+          for (ix = 1; ix < vowel_count; ix++) {
+            if (vowel_length[ix] > 0) {
+              stressed_syllable = ix;
+              break;
+            }
+          }
 				}
 
 				if ((vowel_stress[stressed_syllable] == STRESS_IS_DIMINISHED) || (vowel_stress[stressed_syllable] == STRESS_IS_UNSTRESSED)) {

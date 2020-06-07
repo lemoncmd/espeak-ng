@@ -1,0 +1,109 @@
+@	jo
+_:	es
+=	es
+
+//numbers
+_0	'ju
+_1	'pankwa
+_2	'kwa
+_3	d'kwa
+_4	'jukwa
+_5	'neokwa
+_6	San'takwa
+_7	'Senkwa
+_8	'lekkwa
+_9	fen'tikwa
+_1X	_an'pankwa
+_2X	'_ankwa
+_3X	'_andkwa
+_4X	_an'jukwa
+_5X	_an'neokwa
+_6X	_anSan'takwa
+_7X	_an'Senkwa
+_8X	_an'lekkwa
+_9X	_anfen'tikwa
+_1C	San'pankwa
+_2C	'Sankwa
+_3C	'Sandkwa
+_4C	San'jukwa
+_5C	San'neokwa
+_6C	SanSan'takwa
+_7C	San'Senkwa
+_8C	San'lekkwa
+_9C	Sanfen'tikwa
+_1M0	zan'pankwa
+_2M0	'zankwa
+_3M0	'zandkwa
+_4M0	zan'jukwa
+_5M0	zan'neokwa
+_6M0	zanSan'takwa
+_7M0	zan'Senkwa
+_8M0	zan'lekkwa
+_9M0	zanfen'tikwa
+_1M1	san'pankwa
+_2M1	'sankwa
+_3M1	'sandkwa
+_4M1	san'jukwa
+_5M1	san'neokwa
+_6M1	sanSan'takwa
+_7M1	san'Senkwa
+_8M1	san'lekkwa
+_9M1	sanfen'tikwa
+_1M2	en'pankwa
+_2M2	'enkwa
+_3M2	'endkwa
+_4M2	en'jukwa
+_5M2	en'neokwa
+_6M2	enSan'takwa
+_7M2	en'Senkwa
+_8M2	en'lekkwa
+_9M2	enfen'tikwa
+_1M3	in'pankwa
+_2M3	'inkwa
+_3M3	'indkwa
+_4M3	in'jukwa
+_5M3	in'neokwa
+_6M3	inSan'takwa
+_7M3	in'Senkwa
+_8M3	in'lekkwa
+_9M3	infen'tikwa
+_1M4	et'pankwa
+_2M4	etpe'kwa
+_3M4	etpe'dkwa
+_4M4	etp'jukwa
+_5M4	etpe'neokwa
+_6M4	etpeSan'takwa
+_7M4	etpe'Senkwa
+_8M4	etpe'lekkwa
+_9M4	etpefen'tikwa
+_dtp	'la:l
+_ord	te
+
+//exceptions
+lecu	les
+lkw	lu'ku:
+vsfafgh	vus'fafuguh
+notul	'notl
+valtoal	'valtol
+pistir	'pistil
+
+//units
+fta	'fe:ta
+sty s'tyzjen
+
+//abbrevs
+en	$abbrev $allcaps
+ff	$abbrev
+lllil	$abbrev
+y	Se'non@n||'u: $allcaps
+i	i: $allcaps
+e	e: $allcaps
+
+
+//unstressed
+io	$u
+fal	$u
+es	$u
+is	$u
+la	$u
+mal	$u

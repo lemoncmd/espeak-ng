@@ -1,0 +1,6 @@
+name Lineparine
+language qla
+
+stressRule 2 524288
+
+pitch 82 160

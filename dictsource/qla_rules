@@ -1,0 +1,162 @@
+//translation rules for Lineparine
+
+.L01 dz x ch sh
+.L02 a e i o u y
+.L03 a e o u
+
+.group a
+     _) a (_  a:
+        a     a
+        ar    a:
+
+.group b
+     _) b (_  be:
+        b     b
+
+.group c
+     _) c (_  se:
+        c     s
+        ch    tS
+
+.group d
+     _) d (_  de:
+        d     d
+        dz    dZ
+        dh    D
+        d(dz  dZ
+        d(dh  D
+
+.group e
+     _) e (_  e
+        e     e
+        en (_ @n
+     _) en (_ en
+        er    e:
+
+.group f
+     _) f (_  fe:
+     _) fh (_ Pe:
+        f     f
+        fh    P
+
+.group g
+     _) g (_  ge:
+        g     g
+
+.group h
+     _) h (_  he:
+        h     h
+
+.group i
+     _) i (_  i
+        i     i
+   L01) i (L02
+   L02) ir    i:
+   L02) i     j
+        i (L02 j
+        ir    i:
+
+.group j
+     _) j (_  je:
+        j     j
+     K) j (K  i
+     y) j     j
+        j (y  j
+
+.group k
+     _) k (_  ke:
+        k     k
+        kh    x
+
+.group l
+     _) l (_  le:
+        l     l
+     l) l
+
+.group m
+     _) m (_  me:
+        m     m
+
+.group n
+     _) n (_  ne:
+        n     n
+        n (i  n^
+        n (j  n^
+        ng    N
+
+.group o
+     _) o (_  o:
+        o     o
+        or    o:
+
+.group p
+     _) p (_  pe:
+        p     p
+        ph    p
+
+.group q
+     _) q (_  kwe:
+        q     kw
+
+.group r
+     _) r (_  Re:
+        r     R
+        rkh   X
+     K) rl    r
+     _) rl    r
+
+.group s
+     _) s (_  ze:
+        s     s
+        s (L02 z
+     s) s (_
+        s (j  z
+        s (x  S
+        sh    S
+
+.group t
+     _) t (_  te:
+        t     t
+        t (z  ts
+        ts    ts
+        th    T
+
+.group u
+     _) u (_  u:
+        u     u
+   L03) u     w
+     i) u     u
+     y) u     u
+   L02) ur    u:
+        ur    u:
+
+.group v
+     _) v (_  ve:
+     _) vh (_ Be:
+        v     v
+        vh    B
+
+.group w
+     _) w (_  we:
+        w     w
+
+.group x
+     _) x (_  Se:
+        x     S
+
+.group y
+     _) y (_  y
+        y     y
+        yr    y:
+        y (L03 j
+
+.group z
+     _) z (_  tse:
+        z     ts
+
+.group '
+        'd (_S2m d
+
+.group
+        ъ
+        $     'ledZ

@@ -1279,6 +1279,22 @@ Translator *SelectTranslator(const char *name)
 		tr->langopts.accents = 2; // 'capital' after letter name
 	}
 		break;
+	case L3('q', 'l', 'a'): // Lineparine
+	{
+		static const short stress_lengths_qla[8] = { 150, 140,  180, 180,    0,   0,  200, 200 };
+		static const unsigned char stress_amps_qla[] = { 16, 14, 20, 20, 20, 22, 22, 21 };
+
+		SetupTranslator(tr, stress_lengths_qla, stress_amps_qla);
+
+		tr->langopts.stress_rule = STRESSPOSN_2R;
+		tr->langopts.stress_flags = S_FINAL_LONG;
+		SetLetterVowel(tr, 'y');
+    tr->langopts.numbers = NUM_DEFAULT;
+		tr->langopts.numbers2 = NUM2_MYRIADS;
+		tr->langopts.break_numbers = BREAK_MYRIADS;
+		tr->langopts.max_digits = 20;
+	}
+		break;
 	case L('r', 'o'): // Romanian
 	{
 		static const short stress_lengths_ro[8] = { 170, 170,  180, 180,  0, 0,  240, 260 };

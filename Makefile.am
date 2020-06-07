@@ -539,6 +539,7 @@ dictionaries: \
 	espeak-ng-data/pl_dict \
 	espeak-ng-data/pt_dict \
 	espeak-ng-data/py_dict \
+	espeak-ng-data/qla_dict \
 	espeak-ng-data/qu_dict \
 	espeak-ng-data/quc_dict \
 	espeak-ng-data/ro_dict \
@@ -796,6 +797,9 @@ espeak-ng-data/pt_dict: dictsource/pt_list dictsource/pt_rules dictsource/pt_ext
 
 py: espeak-ng-data/py_dict
 espeak-ng-data/py_dict: dictsource/py_list dictsource/py_rules dictsource/py_extra
+
+qla: espeak-ng-data/qla_dict
+espeak-ng-data/qla_dict: dictsource/qla_list dictsource/qla_rules dictsource/qla_extra
 
 qu: espeak-ng-data/qu_dict
 espeak-ng-data/qu_dict: dictsource/qu_list dictsource/qu_rules dictsource/qu_extra
